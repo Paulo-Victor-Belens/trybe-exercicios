@@ -16,3 +16,12 @@ body {
     text-align: center;
     text-decoration: underline;
 }
+#cor1{
+    background-color: aquamarine;
+}
+#cor2{
+    background-color: aqua;
+}
+#cor3{
+    background-color: rgb(0, 174, 255);
+}
