@@ -16,7 +16,7 @@
   
   .baloon {
     position: absolute;
-    margin-left: 570px;
+    margin-left: 540px;
     margin-top: 75px;
     z-index: 3;
   }
@@ -24,7 +24,7 @@
   .speach {
     font-size: 25px;
     position: absolute;
-    margin-left: 590px;
+    margin-left: 563px;
     margin-top: 140px;
     z-index: 4;
   }
