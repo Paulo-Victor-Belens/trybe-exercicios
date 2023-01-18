@@ -46,3 +46,6 @@ div:hover {
     font-size: 15px;
     font-weight: 500;
 }
+div:nth-child(odd){
+    font-style: italic;
+}
