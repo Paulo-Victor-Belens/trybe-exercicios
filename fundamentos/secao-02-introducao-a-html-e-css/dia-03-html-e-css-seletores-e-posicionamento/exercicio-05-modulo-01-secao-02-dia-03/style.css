@@ -26,3 +26,6 @@ li em{
 .rosa {
     background-color: pink;
 }
+a:hover{
+    font-weight: bold;
+}
