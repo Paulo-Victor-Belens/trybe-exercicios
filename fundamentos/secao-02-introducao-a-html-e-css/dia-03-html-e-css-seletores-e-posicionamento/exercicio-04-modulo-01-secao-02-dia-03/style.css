@@ -1,3 +1,22 @@
 div:hover {
     border: 5px solid aqua;
 }
+#cor1 {
+    background-color: rgb(226, 20, 20);
+}
+
+#cor2 {
+    background-color: rgb(196, 210, 255);
+}
+
+#cor3 {
+    background-color: rgb(255, 196, 196);
+}
+
+#cor4 {
+    background-color: rgb(215, 255, 196);
+}
+
+#cor5 {
+    background-color: rgb(204, 0, 255);
+}
