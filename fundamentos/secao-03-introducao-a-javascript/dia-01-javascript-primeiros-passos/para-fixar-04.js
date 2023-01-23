@@ -1,5 +1,4 @@
 const currentHour = 3.59;
-let message = "";
 // Se o horário for maior ou igual a 22, insira “Não deveríamos comer nada, é hora de dormir” na variável “message”.
 
 // Se o horário for maior ou igual a 18 e menor que 22, insira “Rango da noite, vamos jantar :D” na variável “message”.
