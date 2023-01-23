@@ -16,9 +16,7 @@ else {
     valorDoDescontoDoInss = 570.88;
 }
 
-
 let salarioBase = salarioBruto - valorDoDescontoDoInss;
-
 
 if (salarioBase < 1903.98) {
     salarioTotal = salarioBase;
