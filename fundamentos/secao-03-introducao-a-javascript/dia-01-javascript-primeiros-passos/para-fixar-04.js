@@ -1,4 +1,4 @@
-const currentHour = 3.59;
+const currentHour = 15;
 // Se o horário for maior ou igual a 22, insira “Não deveríamos comer nada, é hora de dormir” na variável “message”.
 
 // Se o horário for maior ou igual a 18 e menor que 22, insira “Rango da noite, vamos jantar :D” na variável “message”.
@@ -22,6 +22,9 @@ else if (currentHour >= 11 && currentHour < 14) {
 else if (currentHour >= 4 && currentHour < 11) {
     console.log('Hmmm, cheiro de café recém-passado');
 }
-else {
+else if (currentHour > 22 && currentHour < 24 || currentHour > 0 && currentHour < 4) {
     console.log('Não deveríamos comer nada, é hora de dormir');
+}
+else {
+    console.log('Digite uma hora válida');
 }
