@@ -21,7 +21,7 @@ switch (palavra.toLowerCase()) {
         console.log('pode andar quantas casas quiser, apenas nas diagonais');
         break;
     case 'cavalo':
-        console.log('pode andar apenas em L, sendo que o valor de casas percorridas tem que ser igual a 4');
+        console.log('pode andar apenas em L, sendo que o valor de casas percorridas tem que ser igual a 4 e pode passar por cima de outas peças');
         break;
     case 'torre':
         console.log('pode andar quantas casas quiser, apenas na horizontal ou vertical');
@@ -30,5 +30,5 @@ switch (palavra.toLowerCase()) {
         console.log('pode andar apenas uma casa, se for a segunda jogada com o mesmo peão, ou duas casas caso seja o primeiro movimento com esse peão, pode ir apenas em frente e pega a peça inimiga na diagonal');
         break;
     default:
-        console.log('Peça inválida')
+        console.log('Erro, Peça inválida')
 }
