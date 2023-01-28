@@ -74,3 +74,53 @@
 // }
 
 // console.log(biggestPrimeNumber);
+
+
+// let n = 7;
+// let middle = (n + 1) / 2;
+// let controlLeft = middle;
+// let controlRight = middle;
+// let symbol = '*';
+// for (let line = 1; line <= middle; line += 1) {
+//   let outputLine = '';
+//   for (let col = 1; col <= n; col += 1) {
+//     if (col == controlLeft || col == controlRight || line == middle) {
+//       outputLine += symbol;
+//     } else {
+//       outputLine += ' ';
+//     }
+//   }
+//   controlLeft -= 1;
+//   controlRight += 1;
+//   console.log(outputLine);
+// }
+
+// let numero = 5;
+// let asteriscos = '*';
+// let armazenaAsterisco = '';
+
+
+// for (let index = numero; index > 0; index -= 1) {
+//     armazenaAsterisco = asteriscos + armazenaAsterisco;
+//     console.log(armazenaAsterisco);
+// }
+
+let n = 5;
+let symbol = '*';
+let inputLine = '';
+let espacoVazio = '#';
+
+
+for (let lineIndex = 0; lineIndex < n; lineIndex += 1) {
+  if (lineIndex === 0) {
+    inputLine = inputLine + espacoVazio;
+  }
+  else {
+    inputLine = inputLine + symbol;
+  }
+  console.log(inputLine);
+};
+
+// for (let lineIndex = 0; lineIndex < n; lineIndex += 1) {
+//   console.log(inputLine);
+// };
