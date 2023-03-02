@@ -1,0 +1,14 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+h1 {
+    font-size: 65px;
+    color: orange;
+}
+ul {
+    background-color: #003300;
+}
+.cor-de-fundo {
+    background-color: aqua;
+}

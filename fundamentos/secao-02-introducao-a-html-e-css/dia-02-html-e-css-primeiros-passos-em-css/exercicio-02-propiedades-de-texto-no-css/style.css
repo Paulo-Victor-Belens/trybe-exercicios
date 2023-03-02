@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: sans-serif;
+}
+p {
+    font-weight:600;
+    font-size: 3em;
+}
+body {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 15px;
+    text-align: center;
+    text-decoration: underline;
+}
+#cor1{
+    background-color: aquamarine;
+}
+#cor2{
+    background-color: aqua;
+}
+#cor3{
+    background-color: rgb(0, 174, 255);
+}
